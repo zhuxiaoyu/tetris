@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>js实现俄罗斯方块</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./css/main.css">
+<body style="height: 100%">
+    <div class="site-bg"></div>
+    <div class="main">
+        <div class="container">
+            <div class="left-panel"></div>
+            <div class="right-panel">
+                <div class="blocks-preview">
+                </div>
+                <div class="game-guide">
+                    <h3>
+                        游戏操作说明：
+                    </h3>
+                    ENTER:开始游戏，<br>
+                    ESC:重新开始，<br>
+                    方向键(上):改变形状，<br>
+                    方向键(下):下移，<br>
+                    方向键(左)左移，<br>
+                    方向键(右):右移<br>
+                </div>
+                <div class="game-data">
+                    <h3 id="game-level">游戏关卡:1</h3>
+                    <h3 id="game-score">得分:0</h3>
+                    <h3 id="high-score">历史最高分：0</h3>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/blocks.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
+</html>
